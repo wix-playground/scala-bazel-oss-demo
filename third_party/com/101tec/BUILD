@@ -1,0 +1,31 @@
+licenses(["reciprocal"])
+
+package(default_visibility = ["//visibility:public"])
+
+load(
+    "@io_bazel_rules_scala//scala:scala.bzl",
+    "scala_binary",
+    "scala_library",
+    "scala_test",
+    "scala_macro_library",
+    "scala_specs2_junit_test",
+)
+load("//third_party:scala_import.bzl", "scala_import")
+
+scala_import(
+    name = "zkclient",
+    jar = "@com_101tec_zkclient//jar:file",
+    runtime_deps = [
+    ],
+    deps = [
+        "//third_party/org/apache/zookeeper",
+        "//third_party/org/slf4j:slf4j_api",
+    ],
+    # EXCLUDES *:netty
+    # EXCLUDES *:javax
+    # EXCLUDES *:mail
+    # EXCLUDES *:jmxri
+    # EXCLUDES *:jms
+    # EXCLUDES *:jmxtools
+    # EXCLUDES *:jline
+)
