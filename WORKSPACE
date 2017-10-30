@@ -1,6 +1,6 @@
 
 workspace(name = "koboshi")
-rules_scala_version="5082755b314e2de5671ac0a1b3c4a254c5bf5f86" # update this as needed
+rules_scala_version="4666a7e4efa6f7c9eaedf10863af23ce184111d3" # update this as needed
 
 http_archive(
              name = "io_bazel_rules_scala",
