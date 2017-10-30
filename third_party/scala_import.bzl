@@ -9,14 +9,26 @@ def _scala_import_impl(ctx):
         scala = intellij_metadata,
         jars_to_labels = jars2labels,
         providers = [
-          java_common.create_provider(
-              compile_time_jars = code_jars_depset,
-              runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars,
-              transitive_compile_time_jars = jars.transitive_compile_jars + code_jars_depset,
-              transitive_runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars + code_jars_depset,
-          )
+            _create_provider(code_jars_depset, transitive_runtime_jars, jars)
         ],
     )
+def _create_provider(code_jars_depset, transitive_runtime_jars, jars):
+  test_provider = java_common.create_provider()
+  if hasattr(test_provider, "full_compile_jars"):
+      return java_common.create_provider(
+          use_ijar = False,
+          compile_time_jars = code_jars_depset,
+          runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars,
+          transitive_compile_time_jars = jars.transitive_compile_jars + code_jars_depset,
+          transitive_runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars + code_jars_depset,
+      )
+  else:
+      return java_common.create_provider(
+          compile_time_jars = code_jars_depset,
+          runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars,
+          transitive_compile_time_jars = jars.transitive_compile_jars + code_jars_depset,
+          transitive_runtime_jars = transitive_runtime_jars + jars.transitive_runtime_jars + code_jars_depset,
+      )
 
 def _add_labels_of_current_code_jars(code_jars, label):
   jars2labels = {}
