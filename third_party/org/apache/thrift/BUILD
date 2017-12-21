@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "libthrift",
     jar = "@org_apache_thrift_libthrift//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

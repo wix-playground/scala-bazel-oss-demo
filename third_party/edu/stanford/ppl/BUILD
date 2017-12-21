@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "snaptree",
     jar = "@edu_stanford_ppl_snaptree//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

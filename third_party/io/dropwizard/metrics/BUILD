@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "metrics_core",
     jar = "@io_dropwizard_metrics_metrics_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "metrics_graphite",
     jar = "@io_dropwizard_metrics_metrics_graphite//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

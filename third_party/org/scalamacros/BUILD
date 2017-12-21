@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "resetallattrs_2_11",
     jar = "@org_scalamacros_resetallattrs_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jtidy",
     jar = "@jtidy_jtidy//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

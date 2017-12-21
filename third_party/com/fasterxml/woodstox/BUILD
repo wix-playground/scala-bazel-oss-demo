@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "woodstox_core",
     jar = "@com_fasterxml_woodstox_woodstox_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

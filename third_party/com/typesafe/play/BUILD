@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "build_link",
     jar = "@com_typesafe_play_build_link//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "play_streams_2_11",
     jar = "@com_typesafe_play_play_streams_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +40,7 @@ scala_import(
 scala_import(
     name = "play_netty_utils",
     jar = "@com_typesafe_play_play_netty_utils//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -50,6 +53,7 @@ scala_import(
 scala_import(
     name = "twirl_api_2_11",
     jar = "@com_typesafe_play_twirl_api_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -61,6 +65,7 @@ scala_import(
 scala_import(
     name = "play_exceptions",
     jar = "@com_typesafe_play_play_exceptions//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -70,6 +75,7 @@ scala_import(
 scala_import(
     name = "play_functional_2_11",
     jar = "@com_typesafe_play_play_functional_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -80,6 +86,7 @@ scala_import(
 scala_import(
     name = "play_iteratees_2_11",
     jar = "@com_typesafe_play_play_iteratees_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -92,6 +99,7 @@ scala_import(
 scala_import(
     name = "play_2_11",
     jar = "@com_typesafe_play_play_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -126,6 +134,7 @@ scala_import(
 scala_import(
     name = "play_json_2_11",
     jar = "@com_typesafe_play_play_json_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

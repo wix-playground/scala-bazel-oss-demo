@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "bsh",
     jar = "@org_apache_extras_beanshell_bsh//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "xml_apis",
     jar = "@xml_apis_xml_apis//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

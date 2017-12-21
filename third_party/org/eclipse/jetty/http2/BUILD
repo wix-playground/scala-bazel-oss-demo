@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "http2_client",
     jar = "@org_eclipse_jetty_http2_http2_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "http2_common",
     jar = "@org_eclipse_jetty_http2_http2_common//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -36,6 +38,7 @@ scala_import(
 scala_import(
     name = "http2_server",
     jar = "@org_eclipse_jetty_http2_http2_server//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -47,6 +50,7 @@ scala_import(
 scala_import(
     name = "http2_http_client_transport",
     jar = "@org_eclipse_jetty_http2_http2_http_client_transport//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -58,6 +62,7 @@ scala_import(
 scala_import(
     name = "http2_hpack",
     jar = "@org_eclipse_jetty_http2_http2_hpack//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

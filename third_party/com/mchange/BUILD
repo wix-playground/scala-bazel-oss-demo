@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "c3p0",
     jar = "@com_mchange_c3p0//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "mchange_commons_java",
     jar = "@com_mchange_mchange_commons_java//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "google_api_client_servlet",
     jar = "@com_google_api_client_google_api_client_servlet//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "google_api_client_appengine",
     jar = "@com_google_api_client_google_api_client_appengine//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -42,6 +44,7 @@ scala_import(
 scala_import(
     name = "google_api_client",
     jar = "@com_google_api_client_google_api_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

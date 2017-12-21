@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "util_function_2_11",
     jar = "@com_twitter_util_function_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "util_core_2_11",
     jar = "@com_twitter_util_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

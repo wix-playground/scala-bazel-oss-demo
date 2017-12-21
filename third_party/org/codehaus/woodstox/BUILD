@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "woodstox_core_asl",
     jar = "@org_codehaus_woodstox_woodstox_core_asl//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "stax2_api",
     jar = "@org_codehaus_woodstox_stax2_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "thrift_server",
     jar = "@com_thinkaurelius_thrift_thrift_server//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

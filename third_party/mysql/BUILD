@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "mysql_connector_java",
     jar = "@mysql_mysql_connector_java//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

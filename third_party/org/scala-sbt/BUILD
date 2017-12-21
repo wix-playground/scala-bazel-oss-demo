@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "test_interface",
     jar = "@org_scala_sbt_test_interface//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

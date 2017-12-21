@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "byte_buddy",
     jar = "@net_bytebuddy_byte_buddy//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "embedded_redis",
     jar = "@com_orange_redis_embedded_embedded_redis//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

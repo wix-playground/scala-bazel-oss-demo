@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "ant",
     jar = "@org_apache_ant_ant//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "ant_launcher",
     jar = "@org_apache_ant_ant_launcher//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

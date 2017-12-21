@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "commons_pool2",
     jar = "@org_apache_commons_commons_pool2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "commons_text",
     jar = "@org_apache_commons_commons_text//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -34,6 +36,7 @@ scala_import(
 scala_import(
     name = "commons_lang3",
     jar = "@org_apache_commons_commons_lang3//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -43,6 +46,7 @@ scala_import(
 scala_import(
     name = "commons_dbcp2",
     jar = "@org_apache_commons_commons_dbcp2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -54,6 +58,7 @@ scala_import(
 scala_import(
     name = "commons_compress",
     jar = "@org_apache_commons_commons_compress//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

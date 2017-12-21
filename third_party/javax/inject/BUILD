@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "javax_inject",
     jar = "@javax_inject_javax_inject//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

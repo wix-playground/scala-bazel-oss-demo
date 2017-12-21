@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jackson_module_jaxb_annotations",
     jar = "@com_fasterxml_jackson_module_jackson_module_jaxb_annotations//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "jackson_module_jsonSchema",
     jar = "@com_fasterxml_jackson_module_jackson_module_jsonSchema//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -40,6 +42,7 @@ scala_import(
 scala_import(
     name = "jackson_module_scala_2_11",
     jar = "@com_fasterxml_jackson_module_jackson_module_scala_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -55,6 +58,7 @@ scala_import(
 scala_import(
     name = "jackson_module_paranamer",
     jar = "@com_fasterxml_jackson_module_jackson_module_paranamer//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

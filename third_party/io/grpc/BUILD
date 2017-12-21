@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "grpc_protobuf",
     jar = "@io_grpc_grpc_protobuf//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -29,6 +30,7 @@ scala_import(
 scala_import(
     name = "grpc_context",
     jar = "@io_grpc_grpc_context//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +40,7 @@ scala_import(
 scala_import(
     name = "grpc_auth",
     jar = "@io_grpc_grpc_auth//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -49,6 +52,7 @@ scala_import(
 scala_import(
     name = "grpc_netty",
     jar = "@io_grpc_grpc_netty//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -60,6 +64,7 @@ scala_import(
 scala_import(
     name = "grpc_stub",
     jar = "@io_grpc_grpc_stub//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -70,6 +75,7 @@ scala_import(
 scala_import(
     name = "grpc_core",
     jar = "@io_grpc_grpc_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -82,6 +88,7 @@ scala_import(
 scala_import(
     name = "grpc_protobuf_lite",
     jar = "@io_grpc_grpc_protobuf_lite//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

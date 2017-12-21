@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "okio",
     jar = "@com_squareup_okio_okio//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

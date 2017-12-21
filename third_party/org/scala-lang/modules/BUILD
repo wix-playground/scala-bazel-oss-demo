@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scala_java8_compat_2_11",
     jar = "@org_scala_lang_modules_scala_java8_compat_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "scala_xml_2_11",
     jar = "@org_scala_lang_modules_scala_xml_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -35,6 +37,7 @@ scala_import(
 scala_import(
     name = "scala_parser_combinators_2_11",
     jar = "@org_scala_lang_modules_scala_parser_combinators_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

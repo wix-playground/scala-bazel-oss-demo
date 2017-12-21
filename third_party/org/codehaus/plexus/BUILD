@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "plexus_interactivity_api",
     jar = "@org_codehaus_plexus_plexus_interactivity_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "plexus_classworlds",
     jar = "@org_codehaus_plexus_plexus_classworlds//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -36,6 +38,7 @@ scala_import(
 scala_import(
     name = "plexus_utils",
     jar = "@org_codehaus_plexus_plexus_utils//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -45,6 +48,7 @@ scala_import(
 scala_import(
     name = "plexus_interpolation",
     jar = "@org_codehaus_plexus_plexus_interpolation//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -54,6 +58,7 @@ scala_import(
 scala_import(
     name = "plexus_component_annotations",
     jar = "@org_codehaus_plexus_plexus_component_annotations//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -64,6 +69,7 @@ scala_import(
 scala_import(
     name = "plexus_container_default",
     jar = "@org_codehaus_plexus_plexus_container_default//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

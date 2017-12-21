@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jnr_posix",
     jar = "@com_github_jnr_jnr_posix//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "jnr_netdb",
     jar = "@com_github_jnr_jnr_netdb//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -36,6 +38,7 @@ scala_import(
 scala_import(
     name = "jffi",
     jar = "@com_github_jnr_jffi//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -45,6 +48,7 @@ scala_import(
 scala_import(
     name = "jnr_constants",
     jar = "@com_github_jnr_jnr_constants//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -55,6 +59,7 @@ scala_import(
 scala_import(
     name = "jnr_x86asm",
     jar = "@com_github_jnr_jnr_x86asm//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -65,6 +70,7 @@ scala_import(
 scala_import(
     name = "jnr_enxio",
     jar = "@com_github_jnr_jnr_enxio//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -76,6 +82,7 @@ scala_import(
 scala_import(
     name = "jnr_unixsocket",
     jar = "@com_github_jnr_jnr_unixsocket//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

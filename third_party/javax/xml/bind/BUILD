@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jaxb_api",
     jar = "@javax_xml_bind_jaxb_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

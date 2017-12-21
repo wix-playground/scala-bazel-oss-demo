@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "maven_settings",
     jar = "@org_apache_maven_maven_settings//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "maven_plugin_api",
     jar = "@org_apache_maven_maven_plugin_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "maven_plugin_registry",
     jar = "@org_apache_maven_maven_plugin_registry//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -48,6 +51,7 @@ scala_import(
 scala_import(
     name = "maven_repository_metadata",
     jar = "@org_apache_maven_maven_repository_metadata//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -58,6 +62,7 @@ scala_import(
 scala_import(
     name = "maven_error_diagnostics",
     jar = "@org_apache_maven_maven_error_diagnostics//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -68,6 +73,7 @@ scala_import(
 scala_import(
     name = "maven_artifact_manager",
     jar = "@org_apache_maven_maven_artifact_manager//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -82,6 +88,7 @@ scala_import(
 scala_import(
     name = "maven_core",
     jar = "@org_apache_maven_maven_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
         "//third_party/org/apache/maven/wagon:wagon_file",
         "//third_party/org/apache/maven/wagon:wagon_http_lightweight",
@@ -115,6 +122,7 @@ scala_import(
 scala_import(
     name = "maven_project",
     jar = "@org_apache_maven_maven_project//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -133,6 +141,7 @@ scala_import(
 scala_import(
     name = "maven_builder_support",
     jar = "@org_apache_maven_maven_builder_support//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -144,6 +153,7 @@ scala_import(
 scala_import(
     name = "maven_model_builder",
     jar = "@org_apache_maven_maven_model_builder//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -161,6 +171,7 @@ scala_import(
 scala_import(
     name = "maven_plugin_descriptor",
     jar = "@org_apache_maven_maven_plugin_descriptor//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -173,6 +184,7 @@ scala_import(
 scala_import(
     name = "maven_plugin_parameter_documenter",
     jar = "@org_apache_maven_maven_plugin_parameter_documenter//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -184,6 +196,7 @@ scala_import(
 scala_import(
     name = "maven_monitor",
     jar = "@org_apache_maven_maven_monitor//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -193,6 +206,7 @@ scala_import(
 scala_import(
     name = "maven_model",
     jar = "@org_apache_maven_maven_model//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -204,6 +218,7 @@ scala_import(
 scala_import(
     name = "maven_artifact",
     jar = "@org_apache_maven_maven_artifact//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -214,6 +229,7 @@ scala_import(
 scala_import(
     name = "maven_profile",
     jar = "@org_apache_maven_maven_profile//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

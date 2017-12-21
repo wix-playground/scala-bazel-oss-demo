@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "spring_plugin_core",
     jar = "@org_springframework_plugin_spring_plugin_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "spring_plugin_metadata",
     jar = "@org_springframework_plugin_spring_plugin_metadata//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "slf4j_api",
     jar = "@org_slf4j_slf4j_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "jul_to_slf4j",
     jar = "@org_slf4j_jul_to_slf4j//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -34,6 +36,7 @@ scala_import(
 scala_import(
     name = "slf4j_jdk14",
     jar = "@org_slf4j_slf4j_jdk14//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -44,6 +47,7 @@ scala_import(
 scala_import(
     name = "slf4j_log4j12",
     jar = "@org_slf4j_slf4j_log4j12//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -61,6 +65,7 @@ scala_import(
 scala_import(
     name = "slf4j_simple",
     jar = "@org_slf4j_slf4j_simple//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -71,6 +76,7 @@ scala_import(
 scala_import(
     name = "jcl_over_slf4j",
     jar = "@org_slf4j_jcl_over_slf4j//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

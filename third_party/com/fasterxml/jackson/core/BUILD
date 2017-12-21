@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jackson_core",
     jar = "@com_fasterxml_jackson_core_jackson_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "jackson_annotations",
     jar = "@com_fasterxml_jackson_core_jackson_annotations//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -33,6 +35,7 @@ scala_import(
 scala_import(
     name = "jackson_databind",
     jar = "@com_fasterxml_jackson_core_jackson_databind//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

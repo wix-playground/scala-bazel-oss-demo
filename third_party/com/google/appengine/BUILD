@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "appengine_jsr107cache",
     jar = "@com_google_appengine_appengine_jsr107cache//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "appengine_api_1_0_sdk",
     jar = "@com_google_appengine_appengine_api_1_0_sdk//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -33,6 +35,7 @@ scala_import(
 scala_import(
     name = "appengine_endpoints",
     jar = "@com_google_appengine_appengine_endpoints//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -43,6 +46,7 @@ scala_import(
 scala_import(
     name = "appengine_api_labs",
     jar = "@com_google_appengine_appengine_api_labs//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

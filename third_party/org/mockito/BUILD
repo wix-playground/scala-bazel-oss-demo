@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "mockito_core",
     jar = "@org_mockito_mockito_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

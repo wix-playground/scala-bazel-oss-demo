@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "http_testkit_2_11",
     jar = "@com_wix_hoopoe_http_http_testkit_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

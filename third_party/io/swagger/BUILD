@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "swagger_models",
     jar = "@io_swagger_swagger_models//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "swagger_annotations",
     jar = "@io_swagger_swagger_annotations//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

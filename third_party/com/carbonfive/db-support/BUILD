@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "db_support",
     jar = "@com_carbonfive_db_support_db_support//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "db_migration",
     jar = "@com_carbonfive_db_support_db_migration//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

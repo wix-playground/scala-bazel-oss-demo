@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "auto_value",
     jar = "@com_google_auto_value_auto_value//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

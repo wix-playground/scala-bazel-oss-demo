@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jackson_dataformat_xml",
     jar = "@com_fasterxml_jackson_dataformat_jackson_dataformat_xml//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -30,6 +31,7 @@ scala_import(
 scala_import(
     name = "jackson_dataformat_yaml",
     jar = "@com_fasterxml_jackson_dataformat_jackson_dataformat_yaml//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -41,6 +43,7 @@ scala_import(
 scala_import(
     name = "jackson_dataformat_cbor",
     jar = "@com_fasterxml_jackson_dataformat_jackson_dataformat_cbor//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -51,6 +54,7 @@ scala_import(
 scala_import(
     name = "jackson_dataformat_smile",
     jar = "@com_fasterxml_jackson_dataformat_jackson_dataformat_smile//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

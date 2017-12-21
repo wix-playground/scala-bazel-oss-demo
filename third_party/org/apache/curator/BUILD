@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "curator_client",
     jar = "@org_apache_curator_curator_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "curator_x_discovery",
     jar = "@org_apache_curator_curator_x_discovery//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +40,7 @@ scala_import(
 scala_import(
     name = "curator_framework",
     jar = "@org_apache_curator_curator_framework//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -48,6 +51,7 @@ scala_import(
 scala_import(
     name = "curator_test",
     jar = "@org_apache_curator_curator_test//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -60,6 +64,7 @@ scala_import(
 scala_import(
     name = "curator_recipes",
     jar = "@org_apache_curator_curator_recipes//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

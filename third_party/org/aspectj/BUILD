@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "aspectjrt",
     jar = "@org_aspectj_aspectjrt//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "aspectjweaver",
     jar = "@org_aspectj_aspectjweaver//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

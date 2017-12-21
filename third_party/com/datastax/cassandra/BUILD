@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "cassandra_driver_core",
     jar = "@com_datastax_cassandra_cassandra_driver_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

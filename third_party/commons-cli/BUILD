@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "commons_cli",
     jar = "@commons_cli_commons_cli//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "velocity_tools",
     jar = "@org_apache_velocity_velocity_tools//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +39,7 @@ scala_import(
 scala_import(
     name = "velocity",
     jar = "@org_apache_velocity_velocity//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

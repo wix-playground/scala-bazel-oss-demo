@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "google_cloud_dns",
     jar = "@com_google_cloud_google_cloud_dns//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "google_cloud_speech",
     jar = "@com_google_cloud_google_cloud_speech//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -42,6 +44,7 @@ scala_import(
 scala_import(
     name = "google_cloud_trace",
     jar = "@com_google_cloud_google_cloud_trace//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -57,6 +60,7 @@ scala_import(
 scala_import(
     name = "google_cloud_core",
     jar = "@com_google_cloud_google_cloud_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -80,6 +84,7 @@ scala_import(
 scala_import(
     name = "google_cloud_errorreporting",
     jar = "@com_google_cloud_google_cloud_errorreporting//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -95,6 +100,7 @@ scala_import(
 scala_import(
     name = "google_cloud_language",
     jar = "@com_google_cloud_google_cloud_language//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -110,6 +116,7 @@ scala_import(
 scala_import(
     name = "google_cloud_translate",
     jar = "@com_google_cloud_google_cloud_translate//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -121,6 +128,7 @@ scala_import(
 scala_import(
     name = "google_cloud_storage",
     jar = "@com_google_cloud_google_cloud_storage//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -132,6 +140,7 @@ scala_import(
 scala_import(
     name = "google_cloud_bigquery",
     jar = "@com_google_cloud_google_cloud_bigquery//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -143,6 +152,7 @@ scala_import(
 scala_import(
     name = "google_cloud_pubsub",
     jar = "@com_google_cloud_google_cloud_pubsub//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -158,6 +168,7 @@ scala_import(
 scala_import(
     name = "google_cloud_resourcemanager",
     jar = "@com_google_cloud_google_cloud_resourcemanager//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -169,6 +180,7 @@ scala_import(
 scala_import(
     name = "google_cloud_compute",
     jar = "@com_google_cloud_google_cloud_compute//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -180,6 +192,7 @@ scala_import(
 scala_import(
     name = "google_cloud_datastore",
     jar = "@com_google_cloud_google_cloud_datastore//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -192,6 +205,7 @@ scala_import(
 scala_import(
     name = "google_cloud",
     jar = "@com_google_cloud_google_cloud//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -217,6 +231,7 @@ scala_import(
 scala_import(
     name = "google_cloud_vision",
     jar = "@com_google_cloud_google_cloud_vision//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -232,6 +247,7 @@ scala_import(
 scala_import(
     name = "google_cloud_logging",
     jar = "@com_google_cloud_google_cloud_logging//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -247,6 +263,7 @@ scala_import(
 scala_import(
     name = "google_cloud_monitoring",
     jar = "@com_google_cloud_google_cloud_monitoring//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

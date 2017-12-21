@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "h2",
     jar = "@com_h2database_h2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

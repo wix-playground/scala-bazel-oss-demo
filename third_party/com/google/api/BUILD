@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "api_common",
     jar = "@com_google_api_api_common//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -29,6 +30,7 @@ scala_import(
 scala_import(
     name = "gax",
     jar = "@com_google_api_gax//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

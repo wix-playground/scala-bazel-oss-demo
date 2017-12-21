@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "lucene_core",
     jar = "@org_apache_lucene_lucene_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "lucene_spatial",
     jar = "@org_apache_lucene_lucene_spatial//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -36,6 +38,7 @@ scala_import(
 scala_import(
     name = "lucene_queries",
     jar = "@org_apache_lucene_lucene_queries//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -46,6 +49,7 @@ scala_import(
 scala_import(
     name = "lucene_grouping",
     jar = "@org_apache_lucene_lucene_grouping//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -57,6 +61,7 @@ scala_import(
 scala_import(
     name = "lucene_misc",
     jar = "@org_apache_lucene_lucene_misc//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -67,6 +72,7 @@ scala_import(
 scala_import(
     name = "lucene_queryparser",
     jar = "@org_apache_lucene_lucene_queryparser//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -79,6 +85,7 @@ scala_import(
 scala_import(
     name = "lucene_highlighter",
     jar = "@org_apache_lucene_lucene_highlighter//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -91,6 +98,7 @@ scala_import(
 scala_import(
     name = "lucene_suggest",
     jar = "@org_apache_lucene_lucene_suggest//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -104,6 +112,7 @@ scala_import(
 scala_import(
     name = "lucene_codecs",
     jar = "@org_apache_lucene_lucene_codecs//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -114,6 +123,7 @@ scala_import(
 scala_import(
     name = "lucene_memory",
     jar = "@org_apache_lucene_lucene_memory//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -124,6 +134,7 @@ scala_import(
 scala_import(
     name = "lucene_analyzers_common",
     jar = "@org_apache_lucene_lucene_analyzers_common//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -134,6 +145,7 @@ scala_import(
 scala_import(
     name = "lucene_sandbox",
     jar = "@org_apache_lucene_lucene_sandbox//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -145,6 +157,7 @@ scala_import(
 scala_import(
     name = "lucene_join",
     jar = "@org_apache_lucene_lucene_join//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

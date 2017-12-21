@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "asm",
     jar = "@org_ow2_asm_asm//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "asm_commons",
     jar = "@org_ow2_asm_asm_commons//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -34,6 +36,7 @@ scala_import(
 scala_import(
     name = "asm_tree",
     jar = "@org_ow2_asm_asm_tree//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "casbah_query_2_11",
     jar = "@org_mongodb_casbah_query_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "casbah_2_11",
     jar = "@org_mongodb_casbah_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -40,6 +42,7 @@ scala_import(
 scala_import(
     name = "casbah_gridfs_2_11",
     jar = "@org_mongodb_casbah_gridfs_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -51,6 +54,7 @@ scala_import(
 scala_import(
     name = "casbah_core_2_11",
     jar = "@org_mongodb_casbah_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -63,6 +67,7 @@ scala_import(
 scala_import(
     name = "mongo_java_driver",
     jar = "@org_mongodb_mongo_java_driver//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -72,6 +77,7 @@ scala_import(
 scala_import(
     name = "casbah_commons_2_11",
     jar = "@org_mongodb_casbah_commons_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

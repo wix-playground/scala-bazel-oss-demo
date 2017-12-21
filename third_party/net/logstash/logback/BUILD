@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "logstash_logback_encoder",
     jar = "@net_logstash_logback_logstash_logback_encoder//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

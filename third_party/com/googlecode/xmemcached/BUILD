@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "xmemcached",
     jar = "@com_googlecode_xmemcached_xmemcached//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "httpcore",
     jar = "@org_apache_httpcomponents_httpcore//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "httpmime",
     jar = "@org_apache_httpcomponents_httpmime//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -34,6 +36,7 @@ scala_import(
 scala_import(
     name = "httpclient",
     jar = "@org_apache_httpcomponents_httpclient//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

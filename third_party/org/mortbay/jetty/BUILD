@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jetty",
     jar = "@org_mortbay_jetty_jetty//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "jetty_util",
     jar = "@org_mortbay_jetty_jetty_util//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -35,6 +37,7 @@ scala_import(
 scala_import(
     name = "servlet_api",
     jar = "@org_mortbay_jetty_servlet_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "metrics_core",
     jar = "@com_yammer_metrics_metrics_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "slide_webdavlib",
     jar = "@slide_slide_webdavlib//jar:file",
+    tags = ["manual"],
     runtime_deps = [
         "//third_party/commons-httpclient:commons_httpclient",
         "//third_party/de/zeigermann/xml:xml_im_exporter",

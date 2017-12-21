@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "akka_stream_2_11",
     jar = "@com_typesafe_akka_akka_stream_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "akka_protobuf_2_11",
     jar = "@com_typesafe_akka_akka_protobuf_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +40,7 @@ scala_import(
 scala_import(
     name = "akka_remote_2_11",
     jar = "@com_typesafe_akka_akka_remote_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -54,6 +57,7 @@ scala_import(
 scala_import(
     name = "akka_cluster_metrics_2_11",
     jar = "@com_typesafe_akka_akka_cluster_metrics_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -65,6 +69,7 @@ scala_import(
 scala_import(
     name = "akka_http_2_11",
     jar = "@com_typesafe_akka_akka_http_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -76,6 +81,7 @@ scala_import(
 scala_import(
     name = "akka_http_core_2_11",
     jar = "@com_typesafe_akka_akka_http_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -88,6 +94,7 @@ scala_import(
 scala_import(
     name = "akka_actor_2_11",
     jar = "@com_typesafe_akka_akka_actor_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -100,6 +107,7 @@ scala_import(
 scala_import(
     name = "akka_persistence_2_11",
     jar = "@com_typesafe_akka_akka_persistence_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -112,6 +120,7 @@ scala_import(
 scala_import(
     name = "akka_cluster_tools_2_11",
     jar = "@com_typesafe_akka_akka_cluster_tools_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -123,6 +132,7 @@ scala_import(
 scala_import(
     name = "akka_parsing_2_11",
     jar = "@com_typesafe_akka_akka_parsing_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -134,6 +144,7 @@ scala_import(
 scala_import(
     name = "akka_cluster_2_11",
     jar = "@com_typesafe_akka_akka_cluster_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -145,6 +156,7 @@ scala_import(
 scala_import(
     name = "akka_testkit_2_11",
     jar = "@com_typesafe_akka_akka_testkit_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -156,6 +168,7 @@ scala_import(
 scala_import(
     name = "akka_slf4j_2_11",
     jar = "@com_typesafe_akka_akka_slf4j_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

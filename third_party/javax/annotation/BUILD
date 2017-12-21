@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "javax_annotation_api",
     jar = "@javax_annotation_javax_annotation_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

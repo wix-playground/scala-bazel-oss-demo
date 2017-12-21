@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "xml_im_exporter",
     jar = "@de_zeigermann_xml_xml_im_exporter//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

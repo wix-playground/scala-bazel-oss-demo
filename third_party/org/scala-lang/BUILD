@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scala_library",
     jar = "@org_scala_lang_scala_library//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "scala_compiler",
     jar = "@org_scala_lang_scala_compiler//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "scala_reflect",
     jar = "@org_scala_lang_scala_reflect//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

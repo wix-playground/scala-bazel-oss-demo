@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "google_http_client_protobuf",
     jar = "@com_google_http_client_google_http_client_protobuf//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "google_http_client_jackson",
     jar = "@com_google_http_client_google_http_client_jackson//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -38,6 +40,7 @@ scala_import(
 scala_import(
     name = "google_http_client_jdo",
     jar = "@com_google_http_client_google_http_client_jdo//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -49,6 +52,7 @@ scala_import(
 scala_import(
     name = "google_http_client_appengine",
     jar = "@com_google_http_client_google_http_client_appengine//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -59,6 +63,7 @@ scala_import(
 scala_import(
     name = "google_http_client_jackson2",
     jar = "@com_google_http_client_google_http_client_jackson2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -70,6 +75,7 @@ scala_import(
 scala_import(
     name = "google_http_client",
     jar = "@com_google_http_client_google_http_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

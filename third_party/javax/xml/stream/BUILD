@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "stax_api",
     jar = "@javax_xml_stream_stax_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

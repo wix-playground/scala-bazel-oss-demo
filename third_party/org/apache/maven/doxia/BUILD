@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "doxia_sink_api",
     jar = "@org_apache_maven_doxia_doxia_sink_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

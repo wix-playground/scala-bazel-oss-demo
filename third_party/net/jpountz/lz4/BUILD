@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "lz4",
     jar = "@net_jpountz_lz4_lz4//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

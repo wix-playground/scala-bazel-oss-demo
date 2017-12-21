@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "okhttp",
     jar = "@com_squareup_okhttp3_okhttp//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

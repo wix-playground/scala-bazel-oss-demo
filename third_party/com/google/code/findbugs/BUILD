@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jsr305",
     jar = "@com_google_code_findbugs_jsr305//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

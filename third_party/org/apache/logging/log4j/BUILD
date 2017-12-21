@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "log4j_core",
     jar = "@org_apache_logging_log4j_log4j_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "log4j_api",
     jar = "@org_apache_logging_log4j_log4j_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

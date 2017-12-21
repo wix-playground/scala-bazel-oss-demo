@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "protobuf_java_util",
     jar = "@com_google_protobuf_protobuf_java_util//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "protobuf_java",
     jar = "@com_google_protobuf_protobuf_java//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "spray_client_2_11",
     jar = "@io_spray_spray_client_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -29,6 +30,7 @@ scala_import(
 scala_import(
     name = "spray_util_2_11",
     jar = "@io_spray_spray_util_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -39,6 +41,7 @@ scala_import(
 scala_import(
     name = "spray_http_2_11",
     jar = "@io_spray_spray_http_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -51,6 +54,7 @@ scala_import(
 scala_import(
     name = "spray_can_2_11",
     jar = "@io_spray_spray_can_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -64,6 +68,7 @@ scala_import(
 scala_import(
     name = "spray_routing_2_11",
     jar = "@io_spray_spray_routing_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -78,6 +83,7 @@ scala_import(
 scala_import(
     name = "spray_io_2_11",
     jar = "@io_spray_spray_io_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -90,6 +96,7 @@ scala_import(
 scala_import(
     name = "spray_httpx_2_11",
     jar = "@io_spray_spray_httpx_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

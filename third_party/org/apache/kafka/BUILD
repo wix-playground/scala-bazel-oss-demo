@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "kafka_clients",
     jar = "@org_apache_kafka_kafka_clients//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -34,6 +35,7 @@ scala_import(
 scala_import(
     name = "kafka_2_11",
     jar = "@org_apache_kafka_kafka_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

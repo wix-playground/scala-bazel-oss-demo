@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "logback_classic",
     jar = "@ch_qos_logback_logback_classic//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "logback_core",
     jar = "@ch_qos_logback_logback_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

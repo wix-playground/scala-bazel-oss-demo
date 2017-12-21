@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "dispatch_core_2_11",
     jar = "@net_databinder_dispatch_dispatch_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -27,6 +28,7 @@ scala_import(
 scala_import(
     name = "dispatch_json4s_jackson_2_11",
     jar = "@net_databinder_dispatch_dispatch_json4s_jackson_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "twilio",
     jar = "@com_twilio_sdk_twilio//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "netty_reactive_streams",
     jar = "@com_typesafe_netty_netty_reactive_streams//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

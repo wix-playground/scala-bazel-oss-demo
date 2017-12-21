@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "netty_codec",
     jar = "@io_netty_netty_codec//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "netty_handler",
     jar = "@io_netty_netty_handler//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "netty_transport",
     jar = "@io_netty_netty_transport//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -47,6 +50,7 @@ scala_import(
 scala_import(
     name = "netty_tcnative_boringssl_static",
     jar = "@io_netty_netty_tcnative_boringssl_static//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -56,6 +60,7 @@ scala_import(
 scala_import(
     name = "netty",
     jar = "@io_netty_netty//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -65,6 +70,7 @@ scala_import(
 scala_import(
     name = "netty_codec_http",
     jar = "@io_netty_netty_codec_http//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -76,6 +82,7 @@ scala_import(
 scala_import(
     name = "netty_buffer",
     jar = "@io_netty_netty_buffer//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -86,6 +93,7 @@ scala_import(
 scala_import(
     name = "netty_transport_native_epoll",
     jar = "@io_netty_netty_transport_native_epoll//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -98,6 +106,7 @@ scala_import(
 scala_import(
     name = "netty_codec_http2",
     jar = "@io_netty_netty_codec_http2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -109,6 +118,7 @@ scala_import(
 scala_import(
     name = "netty_common",
     jar = "@io_netty_netty_common//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

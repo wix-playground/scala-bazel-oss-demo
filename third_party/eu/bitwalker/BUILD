@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "UserAgentUtils",
     jar = "@eu_bitwalker_UserAgentUtils//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

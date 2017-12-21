@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "options",
     jar = "@com_headius_options//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "invokebinder",
     jar = "@com_headius_invokebinder//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

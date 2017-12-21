@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "bcprov_jdk15on",
     jar = "@org_bouncycastle_bcprov_jdk15on//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

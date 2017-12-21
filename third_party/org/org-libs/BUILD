@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "org_lib_usurper",
     jar = "@org_org_libs_org_lib_usurper//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

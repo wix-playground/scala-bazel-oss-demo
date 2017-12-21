@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "json_lib",
     jar = "@net_sf_json_lib_json_lib//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

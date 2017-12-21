@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "guava",
     jar = "@com_google_guava_guava//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

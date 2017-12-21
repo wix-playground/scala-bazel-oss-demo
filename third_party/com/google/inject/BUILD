@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "guice",
     jar = "@com_google_inject_guice//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

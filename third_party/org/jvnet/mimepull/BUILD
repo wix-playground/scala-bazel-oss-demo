@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "mimepull",
     jar = "@org_jvnet_mimepull_mimepull//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

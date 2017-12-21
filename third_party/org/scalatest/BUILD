@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scalatest_2_11",
     jar = "@org_scalatest_scalatest_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

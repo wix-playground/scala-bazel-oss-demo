@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scala_stm_2_11",
     jar = "@org_scala_stm_scala_stm_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "scala_stm_2_10",
     jar = "@org_scala_stm_scala_stm_2_10//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

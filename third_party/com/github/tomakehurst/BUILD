@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "wiremock",
     jar = "@com_github_tomakehurst_wiremock//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

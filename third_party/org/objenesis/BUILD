@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "objenesis",
     jar = "@org_objenesis_objenesis//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

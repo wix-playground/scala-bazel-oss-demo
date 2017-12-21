@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jose4j",
     jar = "@org_bitbucket_b_c_jose4j//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "high_scale_lib",
     jar = "@com_github_stephenc_high_scale_lib_high_scale_lib//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

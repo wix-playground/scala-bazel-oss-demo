@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "aeron_driver",
     jar = "@io_aeron_aeron_driver//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "aeron_client",
     jar = "@io_aeron_aeron_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

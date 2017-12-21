@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jcodings",
     jar = "@org_jruby_jcodings_jcodings//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

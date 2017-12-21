@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "zkclient",
     jar = "@com_101tec_zkclient//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

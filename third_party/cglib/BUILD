@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "cglib_nodep",
     jar = "@cglib_cglib_nodep//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "cglib",
     jar = "@cglib_cglib//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "netty_resolver_dns",
     jar = "@org_asynchttpclient_netty_resolver_dns//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "async_http_client",
     jar = "@org_asynchttpclient_async_http_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -45,6 +47,7 @@ scala_import(
 scala_import(
     name = "async_http_client_netty_utils",
     jar = "@org_asynchttpclient_async_http_client_netty_utils//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -56,6 +59,7 @@ scala_import(
 scala_import(
     name = "netty_resolver",
     jar = "@org_asynchttpclient_netty_resolver//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -67,6 +71,7 @@ scala_import(
 scala_import(
     name = "netty_codec_dns",
     jar = "@org_asynchttpclient_netty_codec_dns//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

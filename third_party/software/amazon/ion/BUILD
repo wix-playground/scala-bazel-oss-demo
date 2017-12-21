@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "ion_java",
     jar = "@software_amazon_ion_ion_java//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

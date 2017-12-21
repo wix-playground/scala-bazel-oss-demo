@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "springfox_swagger2",
     jar = "@io_springfox_springfox_swagger2//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -36,6 +37,7 @@ scala_import(
 scala_import(
     name = "springfox_schema",
     jar = "@io_springfox_springfox_schema//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -47,6 +49,7 @@ scala_import(
 scala_import(
     name = "springfox_spring_web",
     jar = "@io_springfox_springfox_spring_web//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -63,6 +66,7 @@ scala_import(
 scala_import(
     name = "springfox_swagger_common",
     jar = "@io_springfox_springfox_swagger_common//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -82,6 +86,7 @@ scala_import(
 scala_import(
     name = "springfox_core",
     jar = "@io_springfox_springfox_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -97,6 +102,7 @@ scala_import(
 scala_import(
     name = "springfox_spi",
     jar = "@io_springfox_springfox_spi//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

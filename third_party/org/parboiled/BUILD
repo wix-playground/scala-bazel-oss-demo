@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "parboiled_scala_2_11",
     jar = "@org_parboiled_parboiled_scala_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "parboiled_core",
     jar = "@org_parboiled_parboiled_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

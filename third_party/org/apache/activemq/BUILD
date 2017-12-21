@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "activemq_jms_pool",
     jar = "@org_apache_activemq_activemq_jms_pool//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "activemq_broker",
     jar = "@org_apache_activemq_activemq_broker//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -41,6 +43,7 @@ scala_import(
 scala_import(
     name = "activemq_client",
     jar = "@org_apache_activemq_activemq_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -54,6 +57,7 @@ scala_import(
 scala_import(
     name = "activemq_pool",
     jar = "@org_apache_activemq_activemq_pool//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -68,6 +72,7 @@ scala_import(
 scala_import(
     name = "activemq_openwire_legacy",
     jar = "@org_apache_activemq_activemq_openwire_legacy//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

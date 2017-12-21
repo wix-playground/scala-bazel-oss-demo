@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "google_api_services_dns",
     jar = "@com_google_apis_google_api_services_dns//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "google_api_services_compute",
     jar = "@com_google_apis_google_api_services_compute//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "google_api_services_translate",
     jar = "@com_google_apis_google_api_services_translate//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -48,6 +51,7 @@ scala_import(
 scala_import(
     name = "google_api_services_cloudresourcemanager",
     jar = "@com_google_apis_google_api_services_cloudresourcemanager//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -59,6 +63,7 @@ scala_import(
 scala_import(
     name = "google_api_services_storage",
     jar = "@com_google_apis_google_api_services_storage//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -70,6 +75,7 @@ scala_import(
 scala_import(
     name = "google_api_services_bigquery",
     jar = "@com_google_apis_google_api_services_bigquery//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

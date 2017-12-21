@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "datastore_v1_proto_client",
     jar = "@com_google_cloud_datastore_datastore_v1_proto_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -32,6 +33,7 @@ scala_import(
 scala_import(
     name = "datastore_v1_protos",
     jar = "@com_google_cloud_datastore_datastore_v1_protos//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "concurrentlinkedhashmap_lru",
     jar = "@com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

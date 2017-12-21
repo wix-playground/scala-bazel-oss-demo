@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "de_flapdoodle_embed_process",
     jar = "@de_flapdoodle_embed_de_flapdoodle_embed_process//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -30,6 +31,7 @@ scala_import(
 scala_import(
     name = "de_flapdoodle_embed_mongo",
     jar = "@de_flapdoodle_embed_de_flapdoodle_embed_mongo//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

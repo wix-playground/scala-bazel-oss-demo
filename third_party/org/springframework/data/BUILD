@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "spring_data_mongodb",
     jar = "@org_springframework_data_spring_data_mongodb//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -33,6 +34,7 @@ scala_import(
 scala_import(
     name = "spring_data_commons",
     jar = "@org_springframework_data_spring_data_commons//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

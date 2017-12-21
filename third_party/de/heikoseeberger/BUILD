@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "akka_http_json4s_2_11",
     jar = "@de_heikoseeberger_akka_http_json4s_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

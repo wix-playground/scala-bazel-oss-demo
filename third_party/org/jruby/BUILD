@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "dirgra",
     jar = "@org_jruby_dirgra//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "jruby_stdlib",
     jar = "@org_jruby_jruby_stdlib//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -33,6 +35,7 @@ scala_import(
 scala_import(
     name = "jruby",
     jar = "@org_jruby_jruby//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -44,6 +47,7 @@ scala_import(
 scala_import(
     name = "jruby_core",
     jar = "@org_jruby_jruby_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

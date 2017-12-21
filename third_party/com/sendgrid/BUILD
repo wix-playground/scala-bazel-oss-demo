@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "sendgrid_java",
     jar = "@com_sendgrid_sendgrid_java//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "java_http_client",
     jar = "@com_sendgrid_java_http_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

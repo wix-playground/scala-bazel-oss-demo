@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "owasp_java_html_sanitizer",
     jar = "@com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

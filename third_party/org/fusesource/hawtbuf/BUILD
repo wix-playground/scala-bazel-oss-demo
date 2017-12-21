@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "hawtbuf",
     jar = "@org_fusesource_hawtbuf_hawtbuf//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

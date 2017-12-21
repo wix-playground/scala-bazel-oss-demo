@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "hibernate",
     jar = "@org_hibernate_hibernate//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -32,6 +33,7 @@ scala_import(
 scala_import(
     name = "hibernate_validator",
     jar = "@org_hibernate_hibernate_validator//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

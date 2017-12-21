@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jackson_mapper_asl",
     jar = "@org_codehaus_jackson_jackson_mapper_asl//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "jackson_core_asl",
     jar = "@org_codehaus_jackson_jackson_core_asl//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

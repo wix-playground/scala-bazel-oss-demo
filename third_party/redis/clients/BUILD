@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jedis",
     jar = "@redis_clients_jedis//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

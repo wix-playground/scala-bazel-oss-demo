@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "joni",
     jar = "@org_jruby_joni_joni//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "mail",
     jar = "@javax_mail_mail//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "javax_mail_api",
     jar = "@javax_mail_javax_mail_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

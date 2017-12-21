@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "json_simple",
     jar = "@com_googlecode_json_simple_json_simple//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "make_it_easy",
     jar = "@com_natpryce_make_it_easy//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

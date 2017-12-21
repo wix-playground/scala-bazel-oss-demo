@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "apache_jsp",
     jar = "@org_mortbay_jasper_apache_jsp//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "apache_el",
     jar = "@org_mortbay_jasper_apache_el//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

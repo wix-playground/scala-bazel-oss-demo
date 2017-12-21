@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "hamcrest_all",
     jar = "@org_hamcrest_hamcrest_all//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "hamcrest_core",
     jar = "@org_hamcrest_hamcrest_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -33,6 +35,7 @@ scala_import(
 scala_import(
     name = "hamcrest_library",
     jar = "@org_hamcrest_hamcrest_library//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

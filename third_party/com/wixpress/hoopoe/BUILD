@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "hoopoe_specs2",
     jar = None,
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "commons_beanutils_core",
     jar = "@commons_beanutils_commons_beanutils_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "commons_beanutils",
     jar = "@commons_beanutils_commons_beanutils//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "validation_api",
     jar = "@javax_validation_validation_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

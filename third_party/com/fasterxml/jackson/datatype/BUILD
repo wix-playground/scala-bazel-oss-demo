@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jackson_datatype_joda",
     jar = "@com_fasterxml_jackson_datatype_jackson_datatype_joda//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "jackson_datatype_jsr310",
     jar = "@com_fasterxml_jackson_datatype_jackson_datatype_jsr310//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -40,6 +42,7 @@ scala_import(
 scala_import(
     name = "jackson_datatype_guava",
     jar = "@com_fasterxml_jackson_datatype_jackson_datatype_guava//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -52,6 +55,7 @@ scala_import(
 scala_import(
     name = "jackson_datatype_jdk8",
     jar = "@com_fasterxml_jackson_datatype_jackson_datatype_jdk8//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

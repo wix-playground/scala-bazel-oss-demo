@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scalikejdbc_interpolation_2_11",
     jar = "@org_scalikejdbc_scalikejdbc_interpolation_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -28,6 +29,7 @@ scala_import(
 scala_import(
     name = "scalikejdbc_core_2_11",
     jar = "@org_scalikejdbc_scalikejdbc_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -44,6 +46,7 @@ scala_import(
 scala_import(
     name = "scalikejdbc_test_2_11",
     jar = "@org_scalikejdbc_scalikejdbc_test_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -56,6 +59,7 @@ scala_import(
 scala_import(
     name = "scalikejdbc_interpolation_macro_2_11",
     jar = "@org_scalikejdbc_scalikejdbc_interpolation_macro_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -68,6 +72,7 @@ scala_import(
 scala_import(
     name = "scalikejdbc_2_11",
     jar = "@org_scalikejdbc_scalikejdbc_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

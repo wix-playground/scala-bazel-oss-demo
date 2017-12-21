@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "async_http_client",
     jar = "@com_ning_async_http_client//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -26,6 +27,7 @@ scala_import(
 scala_import(
     name = "compress_lzf",
     jar = "@com_ning_compress_lzf//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jjwt",
     jar = "@io_jsonwebtoken_jjwt//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

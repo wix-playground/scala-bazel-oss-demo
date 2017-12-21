@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "spring_expression",
     jar = "@org_springframework_spring_expression//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "spring_jdbc",
     jar = "@org_springframework_spring_jdbc//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "spring_oxm",
     jar = "@org_springframework_spring_oxm//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -48,6 +51,7 @@ scala_import(
 scala_import(
     name = "spring_context",
     jar = "@org_springframework_spring_context//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -61,6 +65,7 @@ scala_import(
 scala_import(
     name = "spring_tx",
     jar = "@org_springframework_spring_tx//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -72,6 +77,7 @@ scala_import(
 scala_import(
     name = "spring_web",
     jar = "@org_springframework_spring_web//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -85,6 +91,7 @@ scala_import(
 scala_import(
     name = "spring_context_support",
     jar = "@org_springframework_spring_context_support//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -97,6 +104,7 @@ scala_import(
 scala_import(
     name = "spring_core",
     jar = "@org_springframework_spring_core//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -107,6 +115,7 @@ scala_import(
 scala_import(
     name = "spring_messaging",
     jar = "@org_springframework_spring_messaging//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -119,6 +128,7 @@ scala_import(
 scala_import(
     name = "spring_webmvc",
     jar = "@org_springframework_spring_webmvc//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -134,6 +144,7 @@ scala_import(
 scala_import(
     name = "spring_orm",
     jar = "@org_springframework_spring_orm//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -147,6 +158,7 @@ scala_import(
 scala_import(
     name = "spring_jms",
     jar = "@org_springframework_spring_jms//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -162,6 +174,7 @@ scala_import(
 scala_import(
     name = "spring_beans",
     jar = "@org_springframework_spring_beans//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -172,6 +185,7 @@ scala_import(
 scala_import(
     name = "spring_aop",
     jar = "@org_springframework_spring_aop//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -183,6 +197,7 @@ scala_import(
 scala_import(
     name = "spring_test",
     jar = "@org_springframework_spring_test//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "google_auth_library_oauth2_http",
     jar = "@com_google_auth_google_auth_library_oauth2_http//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -29,6 +30,7 @@ scala_import(
 scala_import(
     name = "google_auth_library_credentials",
     jar = "@com_google_auth_google_auth_library_credentials//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

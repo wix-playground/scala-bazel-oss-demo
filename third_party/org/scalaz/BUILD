@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "scalaz_core_2_11",
     jar = "@org_scalaz_scalaz_core_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -25,6 +26,7 @@ scala_import(
 scala_import(
     name = "scalaz_concurrent_2_11",
     jar = "@org_scalaz_scalaz_concurrent_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -37,6 +39,7 @@ scala_import(
 scala_import(
     name = "scalaz_effect_2_11",
     jar = "@org_scalaz_scalaz_effect_2_11//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

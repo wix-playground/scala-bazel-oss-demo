@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "xbean_reflect",
     jar = "@org_apache_xbean_xbean_reflect//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

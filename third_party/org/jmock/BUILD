@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jmock_junit4",
     jar = "@org_jmock_jmock_junit4//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -30,6 +31,7 @@ scala_import(
 scala_import(
     name = "jmock",
     jar = "@org_jmock_jmock//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -45,6 +47,7 @@ scala_import(
 scala_import(
     name = "jmock_testjar",
     jar = "@org_jmock_jmock_testjar//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -54,6 +57,7 @@ scala_import(
 scala_import(
     name = "jmock_legacy",
     jar = "@org_jmock_jmock_legacy//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

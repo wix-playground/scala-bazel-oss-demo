@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jsonassert",
     jar = "@org_skyscreamer_jsonassert//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

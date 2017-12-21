@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "jdo2_api",
     jar = "@javax_jdo_jdo2_api//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

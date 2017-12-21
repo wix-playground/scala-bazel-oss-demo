@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "cassandra_all",
     jar = "@org_apache_cassandra_cassandra_all//jar:file",
+    tags = ["manual"],
     runtime_deps = [
         "//third_party/org/slf4j:slf4j_log4j12",
     ],
@@ -52,6 +53,7 @@ scala_import(
 scala_import(
     name = "cassandra_thrift",
     jar = "@org_apache_cassandra_cassandra_thrift//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [

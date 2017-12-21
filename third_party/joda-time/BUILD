@@ -15,6 +15,7 @@ load("//third_party:scala_import.bzl", "scala_import")
 scala_import(
     name = "joda_time",
     jar = "@joda_time_joda_time//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
@@ -24,6 +25,7 @@ scala_import(
 scala_import(
     name = "joda_time_hibernate",
     jar = "@joda_time_joda_time_hibernate//jar:file",
+    tags = ["manual"],
     runtime_deps = [
     ],
     deps = [
